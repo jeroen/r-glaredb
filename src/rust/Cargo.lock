@@ -721,9 +721,8 @@ dependencies = [
 
 [[package]]
 name = "aws-lc-sys"
-version = "0.20.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0f0e249228c6ad2d240c2dc94b714d711629d52bad946075d8e9b2f5391f0703"
+version = "0.21.0"
+source = "git+https://github.com/aws/aws-lc-rs#a12cde3ceb47c08931e9b18887190b94f13ca3b1"
 dependencies = [
  "bindgen",
  "cc",
